@@ -1,13 +1,12 @@
 import React from 'react'
+import { Hero } from './components/sections/Hero';
 
 
-export const App = () => {
+const App = () => {
   return (
-    <div>
-        <h1>
-            Hello, Rahul!
-        </h1>
-    </div>
+    <>
+      <Hero />
+    </>
   )
 }
 export default App;

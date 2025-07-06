@@ -4,6 +4,10 @@ import ShowcaseSection from './components/sections/ShowcaseSection';
 import LogoShowcase from './components/sections/LogoShowcase';
 import FeatureCards from './components/sections/FeatureCards';
 import Experience from './components/sections/Experience';
+import TechStack from './components/sections/TechStack';
+import Testimonials from './components/sections/Testimonials';
+import Contact from './components/sections/Contact';
+import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 
 
@@ -16,6 +20,10 @@ const App = () => {
       <LogoShowcase />
       <FeatureCards />
       <Experience />
+      <TechStack/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }

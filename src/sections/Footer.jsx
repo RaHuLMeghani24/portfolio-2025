@@ -9,7 +9,7 @@
  * @component
  * @returns {JSX.Element} The rendered footer section.
  */
-import { socialImgs } from "../constants";
+import { socialImgs } from "../constants/index";
 
 const Footer = () => {
   return (

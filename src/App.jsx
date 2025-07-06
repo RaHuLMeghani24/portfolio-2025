@@ -1,13 +1,13 @@
 import React from 'react'
-import Hero from './components/sections/Hero';
-import ShowcaseSection from './components/sections/ShowcaseSection';
-import LogoShowcase from './components/sections/LogoShowcase';
-import FeatureCards from './components/sections/FeatureCards';
-import Experience from './components/sections/Experience';
-import TechStack from './components/sections/TechStack';
-import Testimonials from './components/sections/Testimonials';
-import Contact from './components/sections/Contact';
-import Footer from './components/Footer';
+import Hero from './sections/Hero';
+import ShowcaseSection from './sections/ShowcaseSection';
+import LogoShowcase from './sections/LogoShowcase';
+import FeatureCards from './sections/FeatureCards';
+import Experience from'./sections/Experience';
+import TechStack from'./sections/TechStack';
+import Testimonials from'./sections/Testimonials';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 import NavBar from './components/NavBar';
 
 

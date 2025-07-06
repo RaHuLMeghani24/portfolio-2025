@@ -1,3 +1,14 @@
+
+/**
+ * AppShowcase component displays a section showcasing multiple app projects with animated transitions.
+ *
+ * - Uses GSAP and ScrollTrigger for fade-in and slide-up animations as the section and cards enter the viewport.
+ * - Each project card is referenced via useRef for targeted animations.
+ * - Animations are initialized using the useGSAP hook.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered showcase section with animated project cards.
+ */
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

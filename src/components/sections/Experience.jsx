@@ -1,3 +1,17 @@
+
+/**
+ * Experience section component that displays a timeline of professional work experiences.
+ * Utilizes GSAP and ScrollTrigger for scroll-based animations:
+ * - Animates each timeline card sliding in from the left as it enters the viewport.
+ * - Animates the timeline's height scaling down as the user scrolls.
+ * - Animates experience text elements fading in as they appear.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered Experience section.
+ *
+ * @example
+ * <Experience />
+ */
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

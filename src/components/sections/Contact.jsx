@@ -1,3 +1,18 @@
+/**
+ * Contact section component that renders a contact form and an experience area.
+ * 
+ * Features:
+ * - Collects user's name, email, and message.
+ * - Uses EmailJS to send form submissions asynchronously.
+ * - Displays loading state while sending.
+ * - Resets form on successful submission.
+ * - Handles and logs errors on failure.
+ * - Includes a styled layout with a title header and a contact experience area.
+ * 
+ * @component
+ * @returns {JSX.Element} The rendered contact section with form and experience area.
+ */
+
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 

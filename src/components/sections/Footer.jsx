@@ -1,3 +1,14 @@
+
+/**
+ * Footer component displays the website's footer section.
+ *
+ * - Shows "Terms & Conditions" text.
+ * - Renders a list of social media icons from the `socialImgs` constant.
+ * - Displays the current year and copyright notice.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered footer section.
+ */
 import { socialImgs } from "../constants";
 
 const Footer = () => {

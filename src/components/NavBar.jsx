@@ -1,5 +1,24 @@
+/**
+ * NavBar component renders the navigation bar for the portfolio website.
+ * 
+ * Features:
+ * - Displays the site logo and navigation links.
+ * - Highlights the navigation bar when the user scrolls down the page.
+ * - Provides a "Contact me" button.
+ * 
+ * State:
+ * - `scrolled` (boolean): Tracks whether the user has scrolled more than 10px from the top.
+ * 
+ * Effects:
+ * - Adds a scroll event listener to update the `scrolled` state.
+ * 
+ * Dependencies:
+ * - Uses `navLinks` from the constants module to generate navigation links.
+ * 
+ * @component
+ * @returns {JSX.Element} The rendered navigation bar component.
+ */
 import { useState, useEffect } from "react";
-
 import { navLinks } from "../constants";
 
 const NavBar = () => {

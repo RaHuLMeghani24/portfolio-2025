@@ -1,7 +1,15 @@
+/**
+ * Renders the Testimonials section displaying customer feedback.
+ *
+ * Displays a section with a title and a list of testimonial cards,
+ * each showing the customer's image, name, and feedback.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered Testimonials section.
+ */
 import { testimonials } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
-
 const Testimonials = () => {
   return (
     <section id="testimonials" className="flex-center section-padding">

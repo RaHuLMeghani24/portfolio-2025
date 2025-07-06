@@ -1,3 +1,13 @@
+/**
+ * TechStack component displays a grid of technology stack cards with animated entrance effects.
+ * 
+ * - Animates tech cards into view when the user scrolls to the skills section using GSAP and ScrollTrigger.
+ * - Renders a title header and a grid of tech stack icons, each with a 3D model or image.
+ * - Supports hover background animation and responsive rounded corners.
+ * 
+ * @component
+ * @returns {JSX.Element} The rendered TechStack section with animated tech cards.
+ */
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 

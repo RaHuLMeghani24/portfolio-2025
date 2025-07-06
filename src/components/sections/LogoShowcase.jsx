@@ -1,3 +1,11 @@
+/**
+ * Renders a logo icon inside a flex container.
+ *
+ * @component
+ * @param {Object} props
+ * @param {{ imgPath: string, name: string }} props.icon - The icon object containing the image path and name.
+ * @returns {JSX.Element} The rendered logo icon component.
+ */
 import { logoIconsList } from "../constants";
 
 const LogoIcon = ({ icon }) => {

@@ -1,3 +1,15 @@
+
+/**
+ * FeatureCards component renders a grid of feature cards based on the `abilities` array.
+ * Each card displays an image, a title, and a description.
+ *
+ * @component
+ * @example
+ * // Renders the feature cards section
+ * <FeatureCards />
+ *
+ * @returns {JSX.Element} A grid of feature cards.
+ */
 import { abilities } from "../constants";
 
 const FeatureCards = () => (
